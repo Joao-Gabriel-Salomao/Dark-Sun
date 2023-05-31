@@ -5,8 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cartas</title>
+    <link rel="stylesheet" href="../../assets/fonts/fonts.css">
+    <link rel="shortcut icon" href="../../img/icon.png">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="cartas.css">
 </head>
 <body>
-    
+    <section class="main swiper mySwiper">
+        <div class="wrapper swiper-wrapper">
+
+            <div class="slide swiper-slide">
+                <img src="./img/fundo1.jpg" class="image">
+                <div class="image-data">
+                    <span class="text">♡ Valet ♡</span>
+                    <h2 class="valet">
+                        "Mundos infinitos não possuem</br>
+                        valor nenhum quando se</br>
+                        está perdido em seu mundo."
+                    </h2>
+                    <h3>Cargo: O mensageiro</h3>
+                </div>
+            </div>
+            <div class="slide swiper-slide">
+                <img src="./img/reiback.jpg" class="image">
+                <div class="image-data">
+                    <span class="text">♧ Rei ♧</span>
+                    <h2 class="rei">
+                        "Uma máscara, 7 demônios, um desejo, </br>
+                        um rei, uma filha e um império.</br>
+                        Eu sou aquele que perdeu</br> a batalha para seus demônios"
+                        
+                    </h2>
+                    <h3>Cargo: O comerciante</h3>
+                </div>
+            </div>   
+            <div class="slide swiper-slide">
+                <img src="./img/Rainhaback.jpg" class="image">
+                <div class="image-data">
+                    <span class="text">♤ Rainha ♤</span>
+                    <h2 class="rainha">
+                        "Soldados e escravos que foram jogados para a morte.</br>
+                        O destino os trouxe até aqui. O destido almeja vossa derrota.</br>
+                        Mas, no final de tudo, aquele que se levantar, mesmo com</br>
+                        suas espadas quebradas, terá poder para ir contra seu destino." 
+                    </h2>
+                    <h3>Cargo: O guerreiro</h3>
+                </div>
+            </div>     
+            <div class="slide swiper-slide">
+                <img src="./img/asback2.jpg" class="image">
+                <div class="image-data">
+                    <span class="text">♢ As ♢</span>
+                    <h2 class="as">
+                        "Se você dormir, você está a um passo de mim.</br>
+                        Se você sonhar, você se encontra em meu reino.</br>
+                        Se você encontrar um pesadelo, então eu estou na sua frente"
+                    </h2>
+                    <h3>Cargo: O Caótico</h3>
+                </div>
+            </div> 
+            <div class="slide swiper-slide">
+                <img src="./img/jokerback2.jpg" class="image">
+                <div class="image-data">
+                    <span class="text">Joker</span>
+                    <h2>
+                        "Condenar corpos com correntes em uma cela</br>
+                        não tira a liberdade dos homens... Infelizmente...</br>
+                        os homens estão condenados a serem livres."                                                  
+                    </h2>
+                    <h3>Cargo: O Mediador</h3>
+                </div>
+            </div> 
+
+        </div>
+
+        <div class="swiper-button-next nav-btn"></div>
+        <div class="swiper-button-prev nav-btn"></div>
+        <div class="swiper-pagination"></div>
+
+    </section>
+
+
+
+    <!-- Swiper JS -->
+    <script src="js/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 </body>
 </html>
