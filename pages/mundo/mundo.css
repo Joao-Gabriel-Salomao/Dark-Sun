@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-image: linear-gradient(to right, rgb(199, 178, 178) , rgb(32, 12, 160));
+    margin: 0;
+
+}
+
+
+.head{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.head h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    background-color: black;
+}
+
+.main{
+    text-align: center;     
+}
+
+.main .continente{
+    color: aliceblue;
+    font-size: 2em;
+    font-family: "Devil";
+
+}
+
+.main img{
+    max-height: 100vh;
+    max-width: 100vh;
+    transform-origin: center center;
+    object-fit: cover;
+    box-shadow: 10px 10px black;
+    transition: all 0.6s;
+}
+
+img:hover{
+    transform:scale(1.25, 1.25);
+    margin: 5vh;
+}

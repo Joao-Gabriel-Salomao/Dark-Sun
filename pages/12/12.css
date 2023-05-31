@@ -41,9 +41,10 @@ header .logo{
 }
 
 .sobre text{
+    font-size: 18px;
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    max-width: 500px;
+    max-width: 50rem;
     color: aliceblue;
     text-shadow: 2px 2px 4px #000000;
     margin-left: 10px;
@@ -75,7 +76,7 @@ header .logo{
 }
 
 .content{
-    margin: 20px;
+    margin: 3vh;
     display: inline-flex;
 }
 
@@ -83,7 +84,7 @@ header .logo{
     color: rgb(255, 255, 255);
     justify-items: right;
     size: 5px;
-    margin-left: 10px;
+    margin-left: 5rem;
     word-spacing: 2px;
     padding: 3rem;
     border-left: 1px solid red;
@@ -91,8 +92,8 @@ header .logo{
 }
 
 .box{
-    margin-top: 50px;
-    max-width: 600px;
+    margin-top: 10vh;
+    max-width: 40rem;
     
 
 }
@@ -114,16 +115,15 @@ header .logo{
 
 .img img{
     margin-left: 30px;
-    width: 300px;
+    width: 5vh;
     min-height: auto;
-    min-width: 350px;
+    min-width: 50vh;
     max-width: 50%;
     border-radius: 50%;
     transition: 0.5s;
 }
 .img img:hover{
     transform: scale(1.1);
-    margin-right: 20px;
 }
 
 
